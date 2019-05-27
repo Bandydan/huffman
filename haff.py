@@ -21,7 +21,7 @@ s = list('beep boop beer!')
 
 myset = set(s)
 frequency = count_symbols(s, myset)
-decoder = frequency 
+decoder = frequency
 
 # print (frequency)
 
@@ -31,7 +31,7 @@ while len(frequency) > 1:
 	frequency = new_elem + frequency[2:]
 	frequency.sort(key = lambda val: val[1])
 
-#nex row is making me mad!
+#next row is making me mad!
 frequency = frequency[0][0]
 
 print (frequency)
